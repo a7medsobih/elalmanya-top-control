@@ -1,0 +1,143 @@
+/* Article Content Styles */
+.blog-section {
+    padding: 60px 0;
+}
+
+.article-content {
+    line-height: 1.8;
+    color: #444;
+}
+
+.article-content h2 {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    margin: 15px 0 15px;
+    font-weight: 600;
+}
+
+.article-content h3 {
+    font-size: 1.3rem;
+    color: var(--secondary-color);
+    margin: 25px 0 15px;
+}
+
+.article-img {
+    margin: 25px 0;
+    border: 1px solid #eee;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+}
+
+.img-caption {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.article-list {
+    list-style: none;
+    padding: 0;
+}
+
+.article-list li {
+    margin-bottom: 10px;
+    padding-right: 25px;
+    position: relative;
+}
+
+.solution-card {
+    padding: 0 20px 0 0;
+}
+
+.service-feature {
+    display: flex;
+    margin-bottom: 25px;
+    align-items: flex-start;
+}
+
+.feature-icon {
+    width: 50px;
+    height: 50px;
+    background: var(--primary-lightest);
+    color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-left: 15px;
+    flex-shrink: 0;
+}
+
+.feature-content h3 {
+    margin-top: 0;
+    color: var(--primary-dark);
+}
+
+.tips-row {
+    margin: 25px 0;
+}
+
+.tip-item {
+    margin-bottom: 20px;
+}
+
+.tip-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--primary-lightest);
+    color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.tip-item h4 {
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+}
+
+.conclusion-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.whatsapp-link {
+    color: #25D366;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 767.98px) {
+    .article-content h2 {
+        font-size: 1.4rem;
+    }
+    
+    .service-feature {
+        flex-direction: column;
+    }
+    
+    .feature-icon {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    
+    .contact-numbers {
+        flex-direction: column;
+    }
+    
+    .contact-numbers a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
