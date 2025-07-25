@@ -4,8 +4,9 @@ Static, responsive website for a pest control company.
 Built entirely from scratch with a custom UI and structure.  
 The site includes **over 10 Arabic articles optimized for SEO** to attract and inform target audiences.
 
-## 🌐 Live Website  
+## 🌍 Live Domain
 [🔗 Visit Site](https://elalmanyatopcontrol.com/)
+The website is officially live on its own domain.
 
 ## 📌 Features  
 - Clean and modern UI  
